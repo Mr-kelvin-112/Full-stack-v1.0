@@ -1,0 +1,47 @@
+/* ================================
+   Global Styles
+   ================================ */
+body {
+    font-family: Arial, sans-serif;  /* Sets the default font for the whole page */
+}
+
+/* ================================
+   Header (Main Title)
+   ================================ */
+h1 {
+    text-align: center;   /* Centers the title horizontally */
+    color: #0c0101;       /* Dark text color for better visibility */
+}
+
+/* ================================
+   Background Styling
+   ================================ */
+/* This section controls how the page background image looks and behaves */
+body {
+    background-image: url("image2.png");  /* Sets your chosen background image */
+    background-size: cover;               /* Ensures the image covers the full screen */
+    background-position: center;          /* Keeps the image centered at all times */
+    background-repeat: no-repeat;         /* Prevents the image from repeating */
+    height: 100vh;                        /* Makes the body fill the full viewport height */
+    margin: 0;                            /* Removes default browser margin around the page */
+    font-family: Arial, sans-serif;       /* Ensures consistent font across the page */
+    color: white;                         /* Sets white text for contrast against the image */
+}
+
+/* ================================
+   Form Controls (Input & Button)
+   ================================ */
+input, button {
+    width: 50px;          /* Defines the element width */
+    padding: 8px;         /* Adds inner spacing for comfort */
+    margin: 5px;          /* Adds small spacing between elements */
+    font-size: 15px;      /* Increases text readability */
+}
+
+/* ================================
+   List Styling
+   ================================ */
+ul {
+    list-style: none;     /* Removes default bullet points */
+    padding: 0;           /* Removes default padding for a clean layout */
+}

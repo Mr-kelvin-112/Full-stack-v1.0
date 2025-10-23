@@ -1,12 +1,53 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> The future</title>
-    </head>
+<html lang="en">
+<head>
+    <!-- 
+      Defines the document type as HTML5 
+      and sets the primary language to English 
+    -->
+    <meta charset="UTF-8"/> <!-- Ensures the browser reads text correctly (UTF-8 encoding) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Makes page responsive on all screen sizes -->
+
+    <!-- Page Title (Appears on browser tab) -->
+    <title>Please what are you learning from Codex Training Academy</title>
+
+    <!-- Links the external CSS file for styling -->
+    <link rel="stylesheet" href="newproject.css" />
+</head>
 
 <body>
-    <h1> the jounery just began</h1>
-    <p> we will get there </p>
+    <!-- ===============================
+         Page Header Section
+         =============================== -->
+    <h1>Welcome to Codex Training Academy!</h1> <!-- Main heading -->
+    <p>Let's learn and build cool projects together 🚀</p> <!-- Short welcome message -->
 
+    <!-- ===============================
+         Input and Button Section
+         =============================== -->
+    <div>
+        <!-- Text field where user types what they’re learning -->
+        <input 
+            type="text" 
+            id="topicInput" 
+            placeholder="What learning can Codex help you with?" 
+            style="width: 400px;"
+        />
+
+        <!-- Button to add the topic entered above -->
+        <button id="addBtn">Add</button>
+    </div>
+
+    <!-- ===============================
+         List Section
+         =============================== -->
+    <!-- Unordered list where new learning topics will appear -->
+    <ul id="topiclist"></ul>
+
+    <!-- ===============================
+         Script Section
+         =============================== -->
+    <!-- Connects your JavaScript file to handle user actions -->
+    <script src="newproject.js"></script>
 </body>
 </html>
